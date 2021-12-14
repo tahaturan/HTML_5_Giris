@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+
+<body>
+    <a href="/HTML_Day_1/images/sokak.jpg">
+        sokak remine git
+    </a>
+    <!-- linklerimizi <a> etiketini kullanark olustabiliriz href kısmında linkimizi iç kısmına ise likimizin nasıl görünüceği bilsini verebiliriz -->
+    <a href="/HTML_Day_1/html_yapisi.html" title="HTML yapısı">
+        html yapısına git
+    </a>
+    <!-- title ilede linkimize baslık verebiliriz yani üzerine gelen kişiye linkle iligili açıklama yapıyoruz gibi -->
+    <a href="/HTML_Day_1/images/sokak.jpg" title="Sokak resmi">
+        <img src="/HTML_Day_1/images/sokak.jpg" alt="sokak resmi" width="100">
+    </a>
+    <!-- linkimizin resim şekilnde de görünmesini sağlayabiliriz bu şekilde içinde img etiketini kullanarak -->
+    <a href="https://www.w3schools.com/html/pic_trulli.jpg" title="Ev resmi" target="_blank">
+        <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="ev resmi" width="100">
+    </a>
+    <!-- burada kullandıgımız target ise tıklandıgında sayfanın nerede açılacagını belirler içine bir değer girmezsek default değerşi _self dir yani bulundugu sayfada açar _blank ise yeni sekmede limizi açmamızı sağlar -->
+    <a href="https://www.google.com/" title="Google" target="_blank">
+        Google
+    </a>
+    <!-- SAYFA İÇİ LİNK VERME -->
+    <br><br>
+    <a href="#bolum1">
+        Bölüm1 e git
+    </a>
+    <a href="#bolum2">
+        Bölüm2 ye git
+    </a>
+
+    <h1 id="bolum1">Bölüm 1</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem repellat quibusdam, nemo qui alias aut
+        atque impedit exercitationem. Rerum beatae necessitatibus esse voluptatem vero ullam tenetur doloribus, animi
+        autem!</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1 id="bolum2">Bölüm2</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet labore explicabo iste necessitatibus
+        harum velit vitae. Voluptatem sunt dolorum aut fugiat excepturi magni voluptas earum, eligendi vel odio sit.</p>
+    <!-- ilk olarak baslıklarımıza id verdik sonradan safa içinde bölümlere ulasmak için a etiketi içinde href yani link yazdıgımız kısma #gitmesini istediğimiz yerin id değerini girdik bu şekilde sayfa içide link olusturmus olduk bu genelde uzun bir safada basta içindekiler kısmı yapacaksak orada kullanılır güzel bir kullanımdır... -->
+
+</body>
+
+</html>
