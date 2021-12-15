@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>LÜTFEN FORMU EKSİKSİZ DOLDURUNUZ</h1>
+    </header>
+    <form action="back_end.js">
+        <table>
+            <thead>
+                <th>Hesap Bilgileriniz</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="kullanici_adi"> Kullanıcı Adı: </label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail: </label>
+                    </td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password"> Parola: </label>
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <th>Kişisel Bilgileriniz</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="name">Adınız: </label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="surname">SoyAdınız: </label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">Şehir</label>
+                        <select id="city">
+                            <option value="34">İstanbul</option>
+                            <option value="09">Aydın</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cinsiyet">Cinsiyet: </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="cinsiyet" id="">
+                        <label for="">Erkek</label>
+                        <input type="radio" name="cinsiyet" id="">
+                        <label for="">Kadın</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobileriniz</td>
+                    <td>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Sinema</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Gezmek</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Spor</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Kitap</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Kaydet</button>
+                        <button type="reset">Temizle</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
