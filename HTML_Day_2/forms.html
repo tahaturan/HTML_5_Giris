@@ -11,6 +11,7 @@
 <body>
     <header>
         <h1>LÜTFEN FORMU EKSİKSİZ DOLDURUNUZ</h1>
+        <hr>
     </header>
     <form action="back_end.js">
         <table>
@@ -23,7 +24,7 @@
                         <label for="kullanici_adi"> Kullanıcı Adı: </label>
                     </td>
                     <td>
-                        <input type="text">
+                        <input type="text" id="kullanici_adi" placeholder="Kullanıcı Adınızı Giriniz">
                     </td>
                 </tr>
                 <tr>
@@ -31,15 +32,15 @@
                         <label for="email">E-mail: </label>
                     </td>
                     <td>
-                        <input type="email">
+                        <input type="email" id="email" placeholder="E-posta adresinizi Giriniz">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="password"> Parola: </label>
+                        <label for="parola"> Parola: </label>
                     </td>
                     <td>
-                        <input type="password">
+                        <input type="password" id="parola" placeholder="Parolanınızı Giriniz">
                     </td>
                 </tr>
             </tbody>
@@ -54,7 +55,7 @@
                         <label for="name">Adınız: </label>
                     </td>
                     <td>
-                        <input type="text">
+                        <input type="text" id="name" placeholder="Adınızı Giriniz">
                     </td>
                 </tr>
                 <tr>
@@ -62,12 +63,14 @@
                         <label for="surname">SoyAdınız: </label>
                     </td>
                     <td>
-                        <input type="text">
+                        <input type="text" id="surname" placeholder="Soyadınızı Giriniz">
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <label for="city">Şehir</label>
+                    </td>
+                    <td>
                         <select id="city">
                             <option value="34">İstanbul</option>
                             <option value="09">Aydın</option>
@@ -79,23 +82,24 @@
                         <label for="cinsiyet">Cinsiyet: </label>
                     </td>
                     <td>
-                        <input type="radio" name="cinsiyet" id="">
-                        <label for="">Erkek</label>
-                        <input type="radio" name="cinsiyet" id="">
-                        <label for="">Kadın</label>
+                        <input type="radio" id="male" name="cinsiyet">
+                        <label for="male">Erkek</label>
+
+                        <input type="radio" id="female" name="cinsiyet">
+                        <label for="female">Kadın</label>
                     </td>
                 </tr>
                 <tr>
                     <td>Hobileriniz</td>
                     <td>
-                        <input type="checkbox" name="" id="">
-                        <label for="">Sinema</label>
-                        <input type="checkbox" name="" id="">
-                        <label for="">Gezmek</label>
-                        <input type="checkbox" name="" id="">
-                        <label for="">Spor</label>
-                        <input type="checkbox" name="" id="">
-                        <label for="">Kitap</label>
+                        <input type="checkbox" name="hobiler" id="sinema">
+                        <label for="sinema">Sinema</label>
+                        <input type="checkbox" name="hobiler" id="gezmek">
+                        <label for="gezmek">Gezmek</label>
+                        <input type="checkbox" name="hobiler" id="spor">
+                        <label for="spor">Spor</label>
+                        <input type="checkbox" name="hobiler" id="kitap">
+                        <label for="kitap">Kitap</label>
                     </td>
                 </tr>
                 <tr>
